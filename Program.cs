@@ -40,7 +40,7 @@
 
 
 
-            Console.WriteLine("\n========== Question 4 ==========");
+            /*Console.WriteLine("\n========== Question 4 ==========");
 
             try
             {
@@ -55,7 +55,13 @@
             finally
             {
                 Console.WriteLine("Done");
-            }
+            }*/
+
+            Console.WriteLine("\n========== Question 5 ==========");
+
+            int pages2 = 300;
+            double dPages = pages2;
+            Console.WriteLine(dPages);
 
 
         }
