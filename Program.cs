@@ -64,11 +64,19 @@
             Console.WriteLine(dPages);*/
 
 
-            Console.WriteLine("\n========== Question 6 ==========");
+            /* Console.WriteLine("\n========== Question 6 ==========");
 
-            double price = 49.99;
-            int intPrice = (int)price;
-            Console.WriteLine(intPrice);
+             double price = 49.99;
+             int intPrice = (int)price;
+             Console.WriteLine(intPrice);*/
+
+
+            Console.WriteLine("\n========== Question 7 ==========");
+
+            string pagesText = "464";
+            int pagesNumber = Convert.ToInt32(pagesText);
+            Console.WriteLine(pagesNumber);
+
 
         }
     }
