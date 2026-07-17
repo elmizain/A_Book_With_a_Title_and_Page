@@ -33,10 +33,30 @@
 
 
 
-            Console.WriteLine("\n========== Question 3 ==========");
-            Console.WriteLine("Compile-time Error: You can't assign a string to an int.");
-            int pages = 100;
-            Console.WriteLine("Fixed Value = " + pages);
+            /*  Console.WriteLine("\n========== Question 3 ==========");
+              Console.WriteLine("Compile-time Error: You can't assign a string to an int.");
+              int pages = 100;
+              Console.WriteLine("Fixed Value = " + pages);*/
+
+
+
+            Console.WriteLine("\n========== Question 4 ==========");
+
+            try
+            {
+                int x = 10;
+                int y = 0;
+                Console.WriteLine(x / y);
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+
 
         }
     }
