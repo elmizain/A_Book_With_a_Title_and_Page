@@ -22,18 +22,21 @@
 
 
 
-            Console.WriteLine("\n========== Question 2 ==========");
+            /*Console.WriteLine("\n========== Question 2 ==========");
 
             BookInfo book = (BookInfo)bookObj;
 
             Console.WriteLine("ToString(): " + book.ToString());
             Console.WriteLine("Equals(): " + book.Equals(book));
             Console.WriteLine("GetHashCode(): " + book.GetHashCode());
-            Console.WriteLine("GetType(): " + book.GetType());
+            Console.WriteLine("GetType(): " + book.GetType());*/
 
 
 
-
+            Console.WriteLine("\n========== Question 3 ==========");
+            Console.WriteLine("Compile-time Error: You can't assign a string to an int.");
+            int pages = 100;
+            Console.WriteLine("Fixed Value = " + pages);
 
         }
     }
