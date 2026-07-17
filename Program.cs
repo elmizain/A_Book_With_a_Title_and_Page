@@ -78,22 +78,35 @@
             Console.WriteLine(pagesNumber);*/
 
 
-            Console.WriteLine("\n========== Question 8 ==========");
+            /* Console.WriteLine("\n========== Question 8 ==========");
 
-            string yearText = "2023";
-            int year = int.Parse(yearText);
-            Console.WriteLine(year);
+             string yearText = "2023";
+             int year = int.Parse(yearText);
+             Console.WriteLine(year);
 
-            string badText = "abc";
+             string badText = "abc";
 
-            if (int.TryParse(badText, out int result))
-            {
-                Console.WriteLine(result);
-            }
-            else
-            {
-                Console.WriteLine("Invalid number");
-            }
+             if (int.TryParse(badText, out int result))
+             {
+                 Console.WriteLine(result);
+             }
+             else
+             {
+                 Console.WriteLine("Invalid number");
+             }*/
+
+
+
+            Console.WriteLine("\n========== Question 9 ==========");
+
+            int pages3 = 464;
+            string text = pages3.ToString();
+
+            Console.WriteLine(text);
+            Console.WriteLine(text.GetType());
+
+
+
 
         }
     }
