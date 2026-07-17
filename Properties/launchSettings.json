@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A-Book-With-A-Title-And-Pages": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
