@@ -71,12 +71,29 @@
              Console.WriteLine(intPrice);*/
 
 
-            Console.WriteLine("\n========== Question 7 ==========");
+            /*Console.WriteLine("\n========== Question 7 ==========");
 
             string pagesText = "464";
             int pagesNumber = Convert.ToInt32(pagesText);
-            Console.WriteLine(pagesNumber);
+            Console.WriteLine(pagesNumber);*/
 
+
+            Console.WriteLine("\n========== Question 8 ==========");
+
+            string yearText = "2023";
+            int year = int.Parse(yearText);
+            Console.WriteLine(year);
+
+            string badText = "abc";
+
+            if (int.TryParse(badText, out int result))
+            {
+                Console.WriteLine(result);
+            }
+            else
+            {
+                Console.WriteLine("Invalid number");
+            }
 
         }
     }
