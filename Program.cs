@@ -128,12 +128,19 @@
             Console.WriteLine(nullableYear.Value);*/
 
 
-            Console.WriteLine("\n========== Question 12 ==========");
+            /*Console.WriteLine("\n========== Question 12 ==========");
 
             string? reviewer = null;
 
-            Console.WriteLine(reviewer == null);
+            Console.WriteLine(reviewer == null);*/
 
+
+
+            Console.WriteLine("\n========== Question 13 ==========");
+
+            BookInfo? nullBook = null;
+
+            Console.WriteLine(nullBook?.Title);
         }
     }
 }
