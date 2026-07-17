@@ -117,7 +117,7 @@
             Console.WriteLine("Original: " + copies);
             Console.WriteLine("Unboxed: " + newCopies);*/
 
-            Console.WriteLine("\n========== Question 11 ==========");
+            /*Console.WriteLine("\n========== Question 11 ==========");
 
             int? nullableYear = null;
 
@@ -125,8 +125,14 @@
 
             nullableYear = 2023;
 
-            Console.WriteLine(nullableYear.Value);
+            Console.WriteLine(nullableYear.Value);*/
 
+
+            Console.WriteLine("\n========== Question 12 ==========");
+
+            string? reviewer = null;
+
+            Console.WriteLine(reviewer == null);
 
         }
     }
