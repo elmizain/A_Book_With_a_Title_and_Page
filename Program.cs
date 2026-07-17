@@ -57,12 +57,18 @@
                 Console.WriteLine("Done");
             }*/
 
-            Console.WriteLine("\n========== Question 5 ==========");
+            /*Console.WriteLine("\n========== Question 5 ==========");
 
             int pages2 = 300;
             double dPages = pages2;
-            Console.WriteLine(dPages);
+            Console.WriteLine(dPages);*/
 
+
+            Console.WriteLine("\n========== Question 6 ==========");
+
+            double price = 49.99;
+            int intPrice = (int)price;
+            Console.WriteLine(intPrice);
 
         }
     }
