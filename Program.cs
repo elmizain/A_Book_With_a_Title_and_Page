@@ -136,11 +136,21 @@
 
 
 
-            Console.WriteLine("\n========== Question 13 ==========");
+            /* Console.WriteLine("\n========== Question 13 ==========");
 
-            BookInfo? nullBook = null;
+             BookInfo? nullBook = null;
 
-            Console.WriteLine(nullBook?.Title);
+             Console.WriteLine(nullBook?.Title);*/
+
+            Console.WriteLine("\n========== Question 14 ==========");
+
+            string? title = null;
+
+            Console.WriteLine(title ?? "Untitled");
+
+            title ??= "Untitled";
+
+            Console.WriteLine(title);
         }
     }
 }
