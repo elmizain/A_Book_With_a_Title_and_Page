@@ -142,7 +142,7 @@
 
              Console.WriteLine(nullBook?.Title);*/
 
-            Console.WriteLine("\n========== Question 14 ==========");
+            /*Console.WriteLine("\n========== Question 14 ==========");
 
             string? title = null;
 
@@ -150,7 +150,18 @@
 
             title ??= "Untitled";
 
-            Console.WriteLine(title);
+            Console.WriteLine(title);*/
+
+            Console.WriteLine("\n========== Question 15 ==========");
+
+            string? name = "Ahmed";
+
+            string confirmedName = name!;
+
+            Console.WriteLine(confirmedName);
+        }
+    }
+}
         }
     }
 }
