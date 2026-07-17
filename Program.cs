@@ -8,18 +8,33 @@
             public int Pages { get; set; }
         }
         static void Main(string[] args)
-        {   
-           
+        {
+             object bookObj = new BookInfo
+                             {
+                                 Title = "C# Basics",
+                                 Pages = 250
+                             };
 
-        Console.WriteLine("========== Question 1 ==========");
+            /* Console.WriteLine("========== Question 1 ==========");
+                 console.WriteLine(bookObj);*/
 
-            object bookObj = new BookInfo
-            {
-                Title = "C# Basics",
-                Pages = 250
-            };
 
-            Console.WriteLine(bookObj);
+
+
+
+            Console.WriteLine("\n========== Question 2 ==========");
+
+            BookInfo book = (BookInfo)bookObj;
+
+            Console.WriteLine("ToString(): " + book.ToString());
+            Console.WriteLine("Equals(): " + book.Equals(book));
+            Console.WriteLine("GetHashCode(): " + book.GetHashCode());
+            Console.WriteLine("GetType(): " + book.GetType());
+
+
+
+
+
         }
     }
 }
