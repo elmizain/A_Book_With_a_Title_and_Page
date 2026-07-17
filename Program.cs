@@ -97,16 +97,25 @@
 
 
 
-            Console.WriteLine("\n========== Question 9 ==========");
+            /*Console.WriteLine("\n========== Question 9 ==========");
 
             int pages3 = 464;
             string text = pages3.ToString();
 
             Console.WriteLine(text);
-            Console.WriteLine(text.GetType());
+            Console.WriteLine(text.GetType());*/
 
 
+            Console.WriteLine("\n========== Question 10 ==========");
 
+            int copies = 100;
+
+            object obj = copies;      // Boxing
+
+            int newCopies = (int)obj; // Unboxing
+
+            Console.WriteLine("Original: " + copies);
+            Console.WriteLine("Unboxed: " + newCopies);
 
         }
     }
