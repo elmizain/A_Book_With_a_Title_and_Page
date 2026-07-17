@@ -106,7 +106,7 @@
             Console.WriteLine(text.GetType());*/
 
 
-            Console.WriteLine("\n========== Question 10 ==========");
+            /*Console.WriteLine("\n========== Question 10 ==========");
 
             int copies = 100;
 
@@ -115,7 +115,18 @@
             int newCopies = (int)obj; // Unboxing
 
             Console.WriteLine("Original: " + copies);
-            Console.WriteLine("Unboxed: " + newCopies);
+            Console.WriteLine("Unboxed: " + newCopies);*/
+
+            Console.WriteLine("\n========== Question 11 ==========");
+
+            int? nullableYear = null;
+
+            Console.WriteLine(nullableYear.HasValue);
+
+            nullableYear = 2023;
+
+            Console.WriteLine(nullableYear.Value);
+
 
         }
     }
